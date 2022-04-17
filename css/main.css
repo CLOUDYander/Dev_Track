@@ -151,7 +151,8 @@ body {
 
 .main__photo {
    margin-top: 100px;
-   margin-left: 45px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .photo-container__indicators {
