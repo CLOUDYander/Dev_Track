@@ -1,0 +1,289 @@
+/*BASE*/
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+
+   font-family: 'Mulish', sans-serif;
+}
+
+/*HEADER*/
+.header {
+   height: 130px;
+
+   background-color: #161239;
+}
+
+/*MAIN*/
+.main__features {
+   display: flex;
+   flex-direction: row;
+   background-image: url(./../img/background/BG.svg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+
+.features {
+   margin-left: 15px;
+}
+
+.caption__dev-track {
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 60px;
+   margin-bottom: 5px;
+
+   color: #D3DCE1;
+   font-weight: 900;
+   font-size: 105px;
+
+   writing-mode: vertical-lr;
+}
+
+.title__text {
+   margin-top: 75px;
+   font-size: 44px;
+   font-weight: 700;
+}
+
+.list__emotions,
+.list__gender-and-age,
+.list__facial-features {
+   display: flex;
+   flex-direction: row;
+
+   vertical-align: middle;
+
+   max-width: 330px;
+
+   margin-bottom: 9px;
+
+   color: #6683E9;
+   font-size: 20px;
+
+   background-color: rgba(22, 18, 57, 0.07);
+   backdrop-filter: blur(20px);
+   border-radius: 10px;
+}
+
+.emotions__img,
+.gender-and-age__img,
+.facial-features__img {
+   margin-left: 8px;
+}
+
+.emotions__text,
+.gender-and-age__text,
+.facial-features__text {
+   margin-left: 10px;
+}
+
+.dev-track {
+   margin-top: 240px;
+   margin-right: 550px;
+}
+
+.dev-track__subtitle {
+   margin-top: -15px;
+
+   text-align: center;
+
+   font-weight: 700;
+   font-size: 22px;
+}
+
+.dev-track__span {
+   color: #6683E9;
+}
+
+.features__alert {
+   display: flex;
+   flex-direction: row;
+   width: 410px;
+   margin-top: 220px;
+
+   font-weight: 700;
+   font-size: 15px;
+}
+
+.alert__img {
+   margin-right: 5px;
+}
+
+.gray-container {
+   height: 145px;
+   background-color: #272D3D;
+}
+
+.camera-arrows {
+   display: flex;
+   flex-direction: column;
+
+   height: 200px;
+   width: 100px;
+
+   justify-content: center;
+   align-items: center;
+   margin: 0px auto;
+}
+
+.camera-arrows__camera {
+   margin-bottom: 15px;
+}
+
+.photo-container {
+   background-color: #C7C8E2;
+}
+
+.photo-container__main {
+   display: flex;
+   background-image: url(./../img/background/Vectors-BG.svg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100%;
+   background-color: #C7C8E2;
+   align-items: center;
+}
+
+.main__photo {
+   margin-top: 100px;
+   margin-left: 45px;
+}
+
+.photo-container__indicators {
+   display: flex;
+   flex-direction: row;
+
+   margin-top: 45px;
+   justify-content: center;
+
+   font-weight: 700;
+   font-size: 24px;
+}
+
+.indicators__gender {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+   width: 370px;
+   height: 150px;
+   margin-right: 15px;
+   margin-bottom: 50px;
+   border-radius: 10px;
+
+   background-color: #F2F2F2;
+}
+
+.gender__img {
+   margin-left: 10px;
+}
+
+.gender__text {
+   margin-left: 10px;
+}
+
+.indicators__start {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+   width: 370px;
+   height: 150px;
+   margin-right: 15px;
+
+   border-radius: 10px;
+
+   background-color: #272D3D;
+   color: #FFF;
+}
+
+.start__img {
+   margin-left: 10px;
+}
+
+.start__text {
+   margin-left: 10px;
+}
+
+.indicators__age {
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+
+   width: 370px;
+   height: 150px;
+
+   border-radius: 10px;
+
+   background-color: #F2F2F2;
+}
+
+.age__img {
+   margin-right: 10px;
+}
+
+.age__text {
+   margin-right: 10px;
+}
+
+.scanning-list__title {
+   font-weight: 700;
+   font-size: 36px;
+   text-align: center;
+}
+
+.alaliz{
+display: flex;
+width: 80%;
+height: 62.01px;
+margin-left: 10%;
+background: #F2F2F2;
+border-radius: 10px;
+align-items: flex-start;
+justify-content: space-between;
+margin-bottom: 15px;
+}
+
+.har{
+   display: flex;
+   margin-left: 50px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+
+   color: #000000;
+}
+
+.result{
+   display: flex;
+   margin-right: 50px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   color: #000000;
+}
+
+.footer
+{
+width: 100%;
+height: 110%;
+background: #262E3C;
+}
+
+.br{
+   display: flex;
+   margin-bottom: 50px;
+}
+
+.img_fot{
+   display: flex;
+   margin-left: 50px;
+   bottom: 500px;
+}
